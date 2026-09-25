@@ -1,0 +1,131 @@
+.omelette {
+	width: 100%;
+	max-height: 500px;
+	height: auto;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+.header {
+	font-family: "Young Serif", serif;
+	font-size: 36px;
+	color: var(--color-text);
+}
+
+.headerText {
+	color: var(--color-text);
+	line-height: 1.5;
+	font-family: Outfit, sans-serif;
+}
+
+.preparationTime {
+	background-color: var(--color-callout);
+	padding: 30px;
+	border-radius: 20px;
+}
+
+.preparationTimeHeader {
+	color: var(--color-accent);
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.preparationTimeList {
+	list-style-position: inside;
+}
+
+.preparationTimeListItem {
+	margin: 10px 0;
+	color: var(--color-text);
+}
+
+.preparationTimeListItem::marker {
+	color: var(--color-accent);
+}
+
+.preparationTimeListItemTitle {
+	font-weight: bold;
+}
+
+.ingredientsHeader {
+	color: var(--color-header);
+	font-family: "Young Serif", serif;
+}
+
+.ingredientsList {
+	list-style-position: inside;
+}
+
+.ingredientsListItem {
+	margin: 10px 0;
+	color: var(--color-text);
+}
+
+.ingredientsListItem::marker {
+	color: var(--color-header);
+}
+
+.instructionsHeader {
+	color: var(--color-header);
+	font-family: "Young Serif", serif;
+}
+
+.instructionsList {
+	list-style-position: inside;
+}
+
+.instructionsListItem {
+	color: var(--color-text);
+	margin: 10px 0;
+	line-height: 1.5;
+}
+
+.instructionsListItem::marker {
+	font-weight: bold;
+	color: var(--color-header);
+}
+
+.instructionsListItemTitle {
+	font-weight: bold;
+}
+
+.nutritionHeader {
+	font-family: "Young Serif", serif;
+	color: var(--color-header);
+}
+
+.nutritionText {
+	color: var(--color-text);
+	margin: 10px 0;
+}
+
+.nutritionTable {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.nutritionTableTitle {
+	font-weight: 300;
+	color: var(--color-text);
+	font-size: 18px;
+	padding: 10px 0;
+}
+
+.nutritionTableTitle:not(:last-of-type) {
+	border-bottom: 1px solid lightgray;
+}
+
+.nutritionTableText {
+	font-weight: bold;
+	color: var(--color-header);
+	padding: 10px 0;
+}
+
+.nutritionTableText:not(:last-of-type) {
+	border-bottom: 1px solid lightgray;
+}
+
+.horizontalLine {
+	border: none;
+	border-top: 1px solid lightgray;
+}

@@ -1,5 +1,20 @@
+:root {
+	--color-text: rgb(47, 45, 44);
+	--color-callout: rgb(255, 246, 251);
+	--color-accent: rgb(109, 41, 67);
+	--color-header: rgb(107, 57, 49);
+	--color-border: rgb(220, 220, 220);
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	gap: 20px;
 }

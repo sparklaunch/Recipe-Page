@@ -10,7 +10,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 	return (
 		<html
 			lang="ko"
-			className={clsx(youngSerif.className, outfit.className)}
+			className={clsx(outfit.className, youngSerif.className)}
 		>
 			<body>{children}</body>
 		</html>
