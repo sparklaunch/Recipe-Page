@@ -129,3 +129,14 @@
 	border: none;
 	border-top: 1px solid lightgray;
 }
+
+@media (max-width: 800px) {
+	.omelette {
+		border-radius: 0;
+		transform: scale(1.32);
+		margin-bottom: 50px;
+	}
+	.nutritionTableTitle {
+		padding-left: 50px;
+	}
+}
